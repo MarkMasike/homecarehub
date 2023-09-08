@@ -4,6 +4,13 @@
     align-items: center;
     background-color: rgb(64, 112, 167);
     color: white;
+    transition: -.5s all ease;
+    position: sticky;
+    top: 0;
+    &.active{
+        background-color: white;
+        color:black;
+    }
     .container{
         width: 1100px;
         display: flex;
@@ -23,6 +30,33 @@
             align-items: center;
             font-weight: 500;
             font-family: "Montserrat","sans-serif";
+            .user{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                cursor: pointer;
+                position:relative;
+            }
+            img{
+                width: 32px;
+                height: 32px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+            .options{
+               position: absolute; 
+               top: 120%;
+               right: 0;
+               padding: 20px;
+               background-color: white;
+               border-radius: 10px;
+               border: 1px solid lightgrey;
+               display: flex;
+               flex-direction: column;
+               gap:10px;
+               color: gray;
+               width: 200px;
+            }
             button{
                 color:white;
                 padding:10px 20px;
