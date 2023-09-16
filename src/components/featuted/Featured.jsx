@@ -8,13 +8,13 @@ const Featured = () => {
               <h1>Find the perfect Service provider online</h1>
               <div className="search">
                 <div className="searchInput">
-                    <img src="" alt="icon" />
+                    <img src="./img/search.png" alt="icon" />
                     <input type='text' placeholder='Try geting a house keeper'/>
                 </div>
                 <button>Search</button>
               </div>
               <div className="popular">
-                <span>Popular</span>
+                <span>Popular:</span>
                 <button>Laundry Service</button>
                 <button>House Keeping</button>
                 <button>Child Care</button>
@@ -22,7 +22,7 @@ const Featured = () => {
               </div>
             </div>
             <div className="right">
-
+                <img src='./img/man.png' alt=''/>                             
             </div>
         </div>
     </div>
